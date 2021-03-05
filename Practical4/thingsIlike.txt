@@ -1,10 +1,26 @@
+<<<<<<< HEAD
+I like tea
+I like chocolate biscuit
+I like studying 
+I like snow
+I like cooking 
+I like dancing 
+I like singing 
+I like icecream
+I like swimming 
+I like running
+I like apple very much
+=======
 i like swimming
 i like ice-cream
 i like running
 i like playing basketball 
-i like sleeping 
+i don't like sleeping 
 i like snow
-i like playing computer games
-i like tea
 i like hotpot
-i like chocolate biscuit
+i like apple 
+i like banana
+i like singing
+i like studying 
+i like dogs
+>>>>>>> Alex
