@@ -7,4 +7,4 @@ j=0
 while j<=4:
 	n=n+n*r
 	j+=1
-print("r rate is:",r,"the total number of individuals infected after 5 generations",n)
+print("r rate is: "+str(r)+" the total number of individuals infected after 5 generations is "+str(n))
