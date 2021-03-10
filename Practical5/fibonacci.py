@@ -1,3 +1,4 @@
+#the first and second number are 1 and 1
 a=1
 b=1
 print (a)
