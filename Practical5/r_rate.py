@@ -1,7 +1,7 @@
 #the initial number is 84 
 n=84
 #input r rate
-r=input ("r rate is:")
+r=1.1
 j=0
 #5 round of injection
 while j<=4:
