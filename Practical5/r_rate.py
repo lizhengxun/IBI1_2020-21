@@ -1,7 +1,7 @@
 #the initial number is 84 
 n=84
 #input r rate
-r=1.1
+r=float(input("r rate is:"))
 j=0
 #5 round of injection
 while j<=4:
