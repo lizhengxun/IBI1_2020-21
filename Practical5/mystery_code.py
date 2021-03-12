@@ -1,5 +1,5 @@
 # What does this piece of code do?
-# Answer: draw random number until a number which is smaller than 50 is drawn. Then display this number less than fifty
+# Answer: draw random number until a number which is smaller than 50 or equal to 50 is drawn. Then display this number less than fifty
 
 # Import libraries
 # randint allows drawing a random number, 
