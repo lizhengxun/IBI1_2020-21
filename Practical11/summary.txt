@@ -1,0 +1,7 @@
+Result:
+1. The alignment score between human and mouse is 1091 and the percentage of identical amino acids is 89.64%.
+2. The alignment score between mouse and random sequecnce is -250 and the percentage of identical amino acids is 5.86%. 
+3. The alignment score between human and random sequecnce is -250 and the percentage of identical amino acids is 5.41%.
+Analysis:
+Campared with the score of human-random and mouse-random groups, the high socre and percentage of SOD2 protein indicated the high similarity of this protein between human and mouse.
+Also, this result may indicate that the gene for the SOD2 are conserved across species and this protein may play a role in some basic celluar metabolic activities.

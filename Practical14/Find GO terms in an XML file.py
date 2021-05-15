@@ -6,6 +6,7 @@ os.chdir("/Users/lizhengxun/Documents/GitHub/IBI1_2020-21/Practical14")
 DOMTree = xml.dom.minidom.parse("go_obo.xml")
 collection = DOMTree.documentElement
 terms = collection.getElementsByTagName("term")
+# make a dictionary
 def dict_founder(terms):
     dict = {}
     for term in terms:
@@ -17,6 +18,7 @@ def dict_founder(terms):
             else:
                 dict[father_id] = [id_all]
     return dict
+# find id of terms related to specific macromolecule
 def related_gene(terms,molecule):
     gene = []
     for term in terms:
@@ -28,6 +30,7 @@ def related_gene(terms,molecule):
         if molecule in a:
             gene.append(id_related)
     return set(gene)
+# find the childnodes
 def getall(dict,lists):
     all = []
     for f in lists:
@@ -42,6 +45,7 @@ def counting_the_childnodes(terms,molecular):
     all_childnodes = getall(dict,match)
     num = len(set(all_childnodes))
     return num
+# make a pie chart
 def pie_chart(x1,x2,x3,x4):
     total = x1 + x2 + x3 + x4
     list = [x1,x2,x3,x4]
@@ -56,6 +60,7 @@ def pie_chart(x1,x2,x3,x4):
     plt.axis('equal')
     plt.show()
 
+# four macromolecule: DNA RNA Protein Carbohydrate
 DNA = counting_the_childnodes(terms,"DNA")
 RNA = counting_the_childnodes(terms,"RNA")
 Protein = counting_the_childnodes(terms,"protein")
