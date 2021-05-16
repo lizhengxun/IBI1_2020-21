@@ -1,6 +1,6 @@
-Question: We want to conpare the new cases in China and United Kingdom
+Question: We want to compare the new cases in China and United Kingdom
 
-The code start at line 66
+The code starts at line 66
 
 The result shows that the number of new cases per day in China rose first,
  peaking on February 13. Then it decreased gradually. It suggests that china 
