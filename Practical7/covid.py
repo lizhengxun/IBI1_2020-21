@@ -2,11 +2,11 @@ import os
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-os.chdir("/Users/lizhengxun/IBI_2020-21/IBI1_2020-21/Practical7")
+os.chdir("/Users/lizhengxun/Documents/GitHub/IBI1_2020-21/Practical7")
 # import the file
 a = covid_data = pd.read_csv("full_data.csv")
 #  show all columns, and every second row between (and including) 0 and 10
-b = covid_data.iloc[0:11,:]
+b = covid_data.iloc[0:11:2,:]
 print(b)
 # extract the data from column "location"
 location = covid_data.iloc[:,1]
